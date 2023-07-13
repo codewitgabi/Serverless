@@ -137,7 +137,7 @@ def update_user(user_id: str, session_token: str, data: dict):
 
     response = get_user(user_id=user_id)
 
-    return response.json()
+    return response
 
 
 def get_users():
